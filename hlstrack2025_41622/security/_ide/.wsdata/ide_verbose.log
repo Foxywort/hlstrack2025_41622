@@ -1,0 +1,84 @@
+2025-10-22 08:53:14 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2025-10-22 08:53:14 [debug] : --------------------------------------------------------------------------------- 
+2025-10-22 08:53:14 [debug] : C:\Users\96390\Desktop\1security 
+2025-10-22 08:53:14 [debug] : --------------------------------------------------------------------------------- 
+2025-10-22 08:53:14 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\96390\.Xilinx\Vitis\2024.2\logs\ide.log 
+2025-10-22 08:53:14 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\96390\.Xilinx\Vitis\2024.2\.wsdata\ide_verbose.log 
+2025-10-22 08:53:14 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider] refresh requested. 
+2025-10-22 08:53:14 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-10-22 08:53:14 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-10-22 08:53:14 [debug] : [Logger UI]  Update Log Level  called 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider] common calling method requested. 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-10-22 08:53:14 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-10-22 08:53:14 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-10-22 08:53:14 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-10-22 08:53:14 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-10-22 08:53:14 [debug] : RIGEL SERVER 08:53:14 INFO  : Marking the target connection as default Local
+08:53:14 INFO  : Marking the target connection as default Linux Agent
+08:53:14 INFO  : Marking the target connection as default XRTServer 
+2025-10-22 08:53:14 [debug] : RIGEL SERVER 08:53:14 INFO  : Marking the target connection as default LinuxEmulation 
+2025-10-22 08:53:14 [debug] : RIGEL SERVER 08:53:14 INFO  : Marking the target connection as default QEMU 
+2025-10-22 08:53:14 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-10-22 08:53:14 [debug] : RIGEL SERVER 08:53:14 INFO  : updated workspace path: C:\Users\96390\Desktop\1security 
+2025-10-22 08:53:14 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-10-22 08:53:14 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-10-22 08:53:14 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["fe5f09c2-7f2f-4fa0-aeeb-ffe59b092409",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-10-22 08:53:14 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2025-10-22 08:53:14 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-10-22 08:53:14 [debug] : [ProjectDecorator] tree decoration updated 
+2025-10-22 08:53:14 [debug] : [ProjectCache] Project location updated to undefined 
+2025-10-22 08:53:14 [debug] : [ProjectDecorator] tree decoration updated 
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\r\n    \"clangd.fallbackFlags\": []\r\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:14 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/96390/Desktop/1security/_ide/settings.json"}
+2025-10-22 08:53:15 [debug] : RIGEL SERVER 08:53:15 INFO  : Embedded Template List generated successfully 
+2025-10-22 08:53:15 [debug] : Widget was activated, but did not accept focus after 2000ms: outline-view 
+2025-10-22 08:53:15 [debug] : RIGEL SERVER 08:53:15 INFO  : cmd.exe, /C, D:\AMD_2024_2\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python D:\AMD_2024_2\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st   D:\AMD_2024_2\Vitis\2024.2\data\embeddedsw && D:\AMD_2024_2\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2025-10-22 08:53:15 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-10-22 08:53:15 [debug] : [Application Examples Provider] common calling method completed. 
+2025-10-22 08:53:15 [debug] : [Application Examples Provider] refresh completed. 
+2025-10-22 08:53:17 [debug] : [git-locator: 17376] IPC started 
+2025-10-22 08:53:17 [debug] : [git-locator: 17376] IPC exited 
+2025-10-22 08:53:19 [debug] : RIGEL SERVER 08:53:19 INFO  : Successfully created repository data at C:\Users\96390\Desktop\1security/_ide\.wsdata 
+2025-10-22 08:53:19 [debug] : RIGEL SERVER 08:53:19 INFO  : cmd.exe, /C, D:\AMD_2024_2\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python D:\AMD_2024_2\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\96390\AppData\Local\Temp\rigel_lopper_963908080410553379018748 -r C:\Users\96390\Desktop\1security\_ide\.wsdata\.repo.yaml && D:\AMD_2024_2\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2025-10-22 08:53:19 [debug] : RIGEL SERVER 08:53:19 INFO  : Embedded Template List generated successfully 
+2025-10-22 08:53:19 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-10-22 08:53:19 [debug] : [Application Examples Provider] common calling method completed. 
+2025-10-22 08:53:19 [debug] : [Application Examples Provider] refresh completed. 
+2025-10-22 08:53:20 [debug] : [git-locator: 13828] IPC started 
+2025-10-22 08:53:20 [debug] : [git-locator: 13828] IPC exited 
+2025-10-22 08:53:21 [debug] : [git-locator: 15964] IPC started 
+2025-10-22 08:53:21 [debug] : [git-locator: 15964] IPC exited 
+2025-10-22 08:53:47 [debug] : [git-locator: 28684] IPC started 
+2025-10-22 08:53:47 [debug] : [git-locator: 28684] IPC exited 

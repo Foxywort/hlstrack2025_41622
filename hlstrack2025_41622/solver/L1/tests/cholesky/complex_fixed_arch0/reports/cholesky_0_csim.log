@@ -1,0 +1,31 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../../host/test_cholesky.cpp in debug mode
+   Compiling ../../../../../kernel/kernel_cholesky_0.cpp in debug mode
+   Generating csim.exe
+Running 1 fixed point tests per matrix type on 3 x 3 matrices with LowerTriangular set to 0
+RESULTS_TABLE,Test,IMAT,L Matching,DUT Ratio,LAPACK Ratio,Relative Ratio Difference
+RESULTS_TABLE,0,1,1,0.333333,0.333333,0
+RESULTS_TABLE,0,2,0,0.573352,0.382765,19.0587
+RESULTS_TABLE,0,3,0,0.479545,0.354167,12.5378
+RESULTS_TABLE,0,4,0,0.46152,0.491726,-3.0206
+RESULTS_TABLE,0,5,0,0.723448,0.496184,22.7264
+RESULTS_TABLE,0,6,0,0.276159,0.192952,8.32068
+RESULTS_TABLE,0,7,0,0.258333,0.258333,0
+RESULTS_TABLE,0,9,1,0.441006,0.441006,0
+SUMMARY_TABLE,imat,Min Ratio, Max Ratio,Min Diff (Smaller),Max Diff (Larger),Same,Better,Worse
+SUMMARY_TABLE,1,0.333333,0.333333,0,0,1,0,0
+SUMMARY_TABLE,2,0.573352,0.573352,0,19.0587,0,0,1
+SUMMARY_TABLE,3,0.479545,0.479545,0,12.5378,0,0,1
+SUMMARY_TABLE,4,0.46152,0.46152,-3.0206,0,0,1,0
+SUMMARY_TABLE,5,0.723448,0.723448,0,22.7264,0,0,1
+SUMMARY_TABLE,6,0.276159,0.276159,0,8.32068,0,0,1
+SUMMARY_TABLE,7,0.258333,0.258333,0,0,1,0,0
+SUMMARY_TABLE,8,30,0,0,0,0,0,0
+SUMMARY_TABLE,9,0.441006,0.441006,0,0,1,0,0
+SUMMARY_TABLE,all,0.258333,0.723448,-3.0206,22.7264,3,1,4
+TB:Pass
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 9
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
