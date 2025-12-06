@@ -94,17 +94,18 @@ $$
 \mathrm{HMAC}(K, M) = H\Big( (K' \oplus \mathrm{opad}) \mathbin{\|} H\big( (K' \oplus \mathrm{ipad}) \mathbin{\|} M \big) \Big)
 $$
 
-核心位运算与迭代公式：
+核心位运算与迭代公式：  
+
 $$
-\begin{aligned}
-\Sigma_0(x) &= \mathrm{ROTR}^2(x) \oplus \mathrm{ROTR}^{13}(x) \oplus \mathrm{ROTR}^{22}(x) \\
-\Sigma_1(x) &= \mathrm{ROTR}^6(x) \oplus \mathrm{ROTR}^{11}(x) \oplus \mathrm{ROTR}^{25}(x) \\
-\sigma_0(x) &= \mathrm{ROTR}^7(x) \oplus \mathrm{ROTR}^{18}(x) \oplus \mathrm{SHR}^{3}(x) \\
-\sigma_1(x) &= \mathrm{ROTR}^{17}(x) \oplus \mathrm{ROTR}^{19}(x) \oplus \mathrm{SHR}^{10}(x) \\
-\mathrm{Ch}(x,y,z) &= (x \land y) \oplus (\lnot x \land z) \\
-\mathrm{Maj}(x,y,z) &= (x \land y) \oplus (x \land z) \oplus (y \land z)
-\end{aligned}
-$$
+\begin{aligned}  
+\Sigma_0(x) &= \mathrm{ROTR}^2(x) \oplus \mathrm{ROTR}^{13}(x) \oplus \mathrm{ROTR}^{22}(x) \\  
+\Sigma_1(x) &= \mathrm{ROTR}^6(x) \oplus \mathrm{ROTR}^{11}(x) \oplus \mathrm{ROTR}^{25}(x) \\  
+\sigma_0(x) &= \mathrm{ROTR}^7(x) \oplus \mathrm{ROTR}^{18}(x) \oplus \mathrm{SHR}^{3}(x) \\  
+\sigma_1(x) &= \mathrm{ROTR}^{17}(x) \oplus \mathrm{ROTR}^{19}(x) \oplus \mathrm{SHR}^{10}(x) \\  
+\mathrm{Ch}(x,y,z) &= (x \land y) \oplus (\lnot x \land z) \\  
+\mathrm{Maj}(x,y,z) &= (x \land y) \oplus (x \land z) \oplus (y \land z)  
+\end{aligned}  
+$$  
 
 $$
 W_t = \begin{cases}
