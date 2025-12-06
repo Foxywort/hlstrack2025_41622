@@ -90,6 +90,7 @@
 </p>
 
 HMAC 计算公式：
+
 $$
 \mathrm{HMAC}(K, M) = H\Big( (K' \oplus \mathrm{opad}) \mathbin{\|} H\big( (K' \oplus \mathrm{ipad}) \mathbin{\|} M \big) \Big)
 $$
