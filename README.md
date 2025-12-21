@@ -1200,13 +1200,13 @@ LZ4 压缩核主要为控制与少量比较/算术逻辑，DSP 占用较低；�
 
 ## 9. 参考文献
 
-[1] 刘西林, 严广乐. 基于明文相关的混沌映射与 SHA-256 算法数字图像的加密与监测[J]. Application Research of Computers/Jisuanji Yingyong Yanjiu, 2019, 36(11).
-[2] 汤煜, 翁秀玲, 王云峰. SHA-256 哈希运算单元的硬件优化实现[J]. 中国集成电路, 2016, 25(5): 26-31.
-[3] R. Nane, V.-M. Sima, C. Pilato, J. Choi, B. Fort, A. Canis, Y. T. Chen, H. Hsiao, S. Brown, F. Ferrandi, J. Anderson, and K. Bertels, “A survey and evaluation of fpga high-level synthesis tools,” IEEE Transactions on CAD, vol. 35, no. 10, pp. 1591–1604, 2016.
-[4] D. Soni, M. Nabeel, K. Basu, and R. Karri, “Power, area, speed, and security (pass) trade-offs of nist pqc signature candidates using a c to asic design flow,” in IEEE International Conference on Computer Design, 2019, pp. 337–340.
-[5] 许晓飞, 陈亮. 应用整数小波变换的 LZ77 电力数据压缩算法[J]. Journal of Xi'an Polytechnic University, 2018, 32(3).
-[6] Sayood K. Introduction to data compression[M]. Morgan Kaufmann, 2017.
-[7] 凌元,韩文俊,孙健.基于HLS的矩阵求逆算法设计优化[J].电子技术与软件工程,2021,(22):93-96.DOI:10.20109/j.cnki.etse.2021.22.035.
+[1] 刘西林, 严广乐. 基于明文相关的混沌映射与 SHA-256 算法数字图像的加密与监测[J]. Application Research of Computers/Jisuanji Yingyong Yanjiu, 2019, 36(11).  
+[2] 汤煜, 翁秀玲, 王云峰. SHA-256 哈希运算单元的硬件优化实现[J]. 中国集成电路, 2016, 25(5): 26-31.  
+[3] R. Nane, V.-M. Sima, C. Pilato, J. Choi, B. Fort, A. Canis, Y. T. Chen, H. Hsiao, S. Brown, F. Ferrandi, J. Anderson, and K. Bertels, “A survey and evaluation of fpga high-level synthesis tools,” IEEE Transactions on CAD, vol. 35, no. 10, pp. 1591–1604, 2016.  
+[4] D. Soni, M. Nabeel, K. Basu, and R. Karri, “Power, area, speed, and security (pass) trade-offs of nist pqc signature candidates using a c to asic design flow,” in IEEE International Conference on Computer Design, 2019, pp. 337–340.  
+[5] 许晓飞, 陈亮. 应用整数小波变换的 LZ77 电力数据压缩算法[J]. Journal of Xi'an Polytechnic University, 2018, 32(3).  
+[6] Sayood K. Introduction to data compression[M]. Morgan Kaufmann, 2017.  
+[7] 凌元,韩文俊,孙健.基于HLS的矩阵求逆算法设计优化[J].电子技术与软件工程,2021,(22):93-96.DOI:10.20109/j.cnki.etse.2021.22.035.  
 
 ---
 
